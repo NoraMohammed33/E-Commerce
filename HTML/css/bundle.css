@@ -159,7 +159,9 @@ body {
     height: 100%;
     width: 100%;
     opacity: .7;
-    z-index: -1; }
+    z-index: -1;
+    background: url(../images/.jpg) ;
+   }
   [class*="page-style-"] .page-intro {
     text-align: center; }
     [class*="page-style-"] .page-intro > h2 {
@@ -167,7 +169,8 @@ body {
       font-size: 36px;
       font-weight: 500;
       margin: 0 0 20px;
-      text-transform: capitalize; }
+      text-transform: capitalize; 
+    }
     [class*="page-style-"] .page-intro > .bread-crumb > li > a {
       color: #ffffff; }
     [class*="page-style-"] .page-intro > .bread-crumb > li.is-marked > a {
@@ -175,7 +178,7 @@ body {
 
 /* Page introduction style a */
 .page-style-a {
-  background: url(../images/pattern/pattern-a.png) repeat center center; }
+  background: url(../images/pattern/pattern-a.png) ; }
   .page-style-a:after {
     background: rgba(52, 58, 64, 0.5); }
 
@@ -884,7 +887,7 @@ body {
 .button-outline-secondary {
   background-color: transparent;
   font-weight: 700;
-  border-radius: 4px;
+  border-radius: 13px;
   color: #292929;
   border: 2px solid #292929; }
 
@@ -1711,7 +1714,7 @@ body {
 .text-area {
   display: block;
   width: 100%;
-  border: 1px solid #eceff8;
+  border: 6px solid #b7b9bd;
   color: #333333;
   font-size: 14px;
   padding: 15px;
@@ -1723,7 +1726,7 @@ body {
 /* Textbox component */
 .text-field {
   background-color: #ffffff;
-  border: 1px solid #eceff8;
+  border: 3px solid #b3b6c5;
   color: #333333;
   font-size: 14px;
   height: 45px;
